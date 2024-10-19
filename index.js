@@ -1,3 +1,8 @@
 /** @format */
+import express from 'express';
 
-console.log(`Hello world!!!`);
+const app = express();
+
+app.get('/', (req, res) => {
+	res.send('<h1>fafafa</h1>');
+});
